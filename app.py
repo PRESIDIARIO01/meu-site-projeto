@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__Dia em Ordem__)
 
 @app.route("/")
 def home():
@@ -10,5 +10,5 @@ def home():
 def dashboard():
     return render_template("dashboard.html")
 
-if __name__ == "__main__":
+if __Dia em Ordem__ == "__main__":
     app.run(debug=True)
